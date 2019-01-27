@@ -23,9 +23,9 @@ $ npm install
 ```
 $ npm run start-server
 ```
-- Run the test case
+- In a new console tab run the test case
 ```
-$ npm run testing
+$ npm run tests
 ```
 - You should see:
 ```

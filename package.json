@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start-server": "webdriver-manager update && webdriver-manager start",
-    "testing": "protractor ./test/protractor.config.js"
+    "tests": "protractor ./test/protractor.config.js"
 
   },
   "author": "vpollastri"
