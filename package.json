@@ -1,0 +1,19 @@
+{
+  "name": "vpollastri-test",
+  "description": "Signaturit test",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "2.2.0",
+    "chai-as-promised": "4.3.0",
+    "cucumber": "^1.3.2",
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^3.1.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0"
+  },
+  "scripts": {
+    "start-server": "webdriver-manager update && webdriver-manager start",
+    "testing": "protractor ./test/protractor.config.js"
+
+  },
+  "author": "vpollastri"
+}
